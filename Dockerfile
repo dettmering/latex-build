@@ -6,5 +6,7 @@ RUN apt-get update &&\
                         texlive \
                         texlive-lang-german \
                         texlive-latex-extra \
+                        fonts-texgyre \
+                        tex-gyre \
                         latexmk &&\
     apt-get clean -y && rm -rf /var/lib/apt/lists/*
