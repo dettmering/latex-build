@@ -8,5 +8,8 @@ RUN apt-get update &&\
                         texlive-latex-extra \
                         fonts-texgyre \
                         tex-gyre \
+                        texlive-font-utils \
+                        ps2eps \
+                        psutils \
                         latexmk &&\
     apt-get clean -y && rm -rf /var/lib/apt/lists/*
