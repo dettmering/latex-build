@@ -11,5 +11,6 @@ RUN apt-get update &&\
                         texlive-font-utils \
                         ps2eps \
                         psutils \
+                        pandoc \
                         latexmk &&\
     apt-get clean -y && rm -rf /var/lib/apt/lists/*
