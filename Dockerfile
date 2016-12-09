@@ -6,6 +6,7 @@ RUN apt-get update &&\
                         texlive \
                         texlive-lang-german \
                         texlive-latex-extra \
+                        texlive-science \
                         fonts-texgyre \
                         tex-gyre \
                         texlive-font-utils \
