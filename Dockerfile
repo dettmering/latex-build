@@ -18,3 +18,5 @@ RUN apt-get update &&\
                         pdftk \
                         latexmk &&\
     apt-get clean -y && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /tex
